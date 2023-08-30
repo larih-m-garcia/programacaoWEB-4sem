@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se</title>
+    <link rel="stylesheet" href="assets/css/inscrevase.css" />
+    
+</head>
+<body>
+    <div class="inscricao-form">
+        
+        <form method="post" action="#">
+            <h1>Inscreva-se</h1>
+
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" value="" />
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" value="" />
+                </div>
+                <div class="field">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" value="" />
+                </div>
+                <div class="field">
+                    <label for="department">Aula</label>
+                    <select name="department" id="department">
+                        <option value="">- Selecione o curso -</option>
+                        <option value="1">Pintura</option>
+                        <option value="2">Teatro</option>
+                        <option value="3">Dança</option>
+                        <option value="4">Fotografia</option>
+                        <option value="4">Moda</option>
+                        <option value="4">Música</option>
+                    </select>
+                </div>
+                <label class="field">Idade</label>
+                <div class="field third">
+                    <input type="radio" id="crianca" name="crianca" checked />
+                    <label for="priority-low">entre 2 e 10</label>
+                </div>
+                <div class="field third">
+                    <input type="radio" id="jovem" name="jovem" />
+                    <label for="priority-normal">entre 11 e 18</label>
+                </div>
+                <div class="field third">
+                    <input type="radio" id="adulto" name="adulto" />
+                    <label for="priority-high">entre 19 e 60</label>
+                </div>
+                <div class="field third">
+                    <input type="radio" id="idoso" name="idoso" />
+                    <label for="priority-high">mais de 60</label>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6"></textarea>
+                </div>
+                <div class="field half">
+                    <input type="checkbox" id="contato-email" name="contato-email" />
+                    <label for="contato-email">Autorizo contato por email</label>
+                </div>
+                <div class="field half">
+                    <input type="checkbox" id="contato-telefone" name="contato-telefone" />
+                    <label for="contato-telefone">Autorizo contato por telefone</label>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><a class="button" type="submit" name="submit" id="submit">Enviar</a></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
