@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Poppins|Source+Sans+Pro|Montserrat:400,900&display=swap");
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", "Poppins", sans-serif;
+}
+body {
+  background: #333;
+  width: 70%;
+  margin: auto;
+}
+
+.title{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.logo-img{
+    border-radius: 50%;
+    width: 20%;
+    height: 5%;
+    margin-right: 15px;
+}
+
+.title-txt{
+   margin: 5px 0px;
+}
+
+.info{
+    margin: 0%;
+}
+
+.cardapio-txt{
+    font-size: 4rem;
+    padding-left: 20%;
+    color:#dfb910
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  background-color: #faf8ec;
+  background-image: url("https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png");
+
+}
+
+.categoria {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.titulo-categoria {
+  margin: 0;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #41403e;
+}
+
+.grupo-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.item {
+  display: flex;
+}
+
+.item-img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.item-text {
+  flex-grow: 1;
+}
+
+.item-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.item-name {
+  margin-right: 1.5em;
+}
+
+.item-desc {
+  line-height: 1.6;
+}

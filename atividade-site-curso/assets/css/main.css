@@ -1452,7 +1452,6 @@ input, select, textarea {
 	form input[type=password],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
 		display: block;
 		border: 0;
 		padding: 0.75em 1em;
@@ -1608,7 +1607,6 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		-webkit-appearance: none;
 		display: inline-block;
 		text-decoration: none;
 		cursor: pointer;
@@ -2764,11 +2762,6 @@ input, select, textarea {
 			.box {
 				padding: 25px 15px 20px 15px;
 			}
-
-				.box .image.featured {
-					
-				}
-
 				.box.post header {
 					padding-top: 0;
 					margin: 0 0 1em 0;

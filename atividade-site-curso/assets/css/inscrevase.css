@@ -189,7 +189,6 @@ input[type="radio"] {
         padding-right: 0.75rem;
         position: relative;
         margin-bottom: 0;
-    }
 
         input[type="checkbox"] + label:before,
         input[type="radio"] + label:before {
@@ -349,7 +348,6 @@ input[type="submit"],
 input[type="reset"],
 button,
 .button {
-    -webkit-appearance: none;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;

@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+.menu{
+    position: sticky;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 50px;
+}
+.card{
+    border: 1px;
+    background-color: rgb(221, 219, 219);
+    width: 50%;
+    min-height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 5px gray;
+    margin: auto;
+    padding: 15px;
+
+}
+
+h1{
+    color: white;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.subTitulo{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:red;
+}
+a:hover{
+    font-size: larger;
+}
+
+a:active{
+    color: cyan;
+}
+
+.fixado{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
