@@ -1,77 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscreva-se</title>
+<html>
+  <head>
+    <title>Formulario Inscricao</title>
     <link rel="stylesheet" href="assets/css/inscrevase.css" />
-    
-</head>
-<body>
-    <div class="inscricao-form">
-        
-        <form method="post" action="#">
-            <h1>Inscreva-se</h1>
+  </head>
+  <body>
+    <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1>Inscreva-se</h1>
+      </div>
+      <div class="item">
+        <h3>Nome</h3>
+          <input type="text" name="name" required/>
+      </div>
+      <div class="item">
+        <h3>Email</h3>
+        <input type="email" name="email" required/>
+      </div>
+      <div class="item">
+        <h3>Telefone</h3>
+        <input type="text" name="phone" required/>
+      </div>
 
-            <div class="fields">
-                <div class="field">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" value="" />
-                </div>
-                <div class="field">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" value="" />
-                </div>
-                <div class="field">
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" name="telefone" id="telefone" value="" />
-                </div>
-                <div class="field">
-                    <label for="department">Aula</label>
-                    <select name="department" id="department">
-                        <option value="">- Selecione o curso -</option>
-                        <option value="1">Pintura</option>
-                        <option value="2">Teatro</option>
-                        <option value="3">Dança</option>
-                        <option value="4">Fotografia</option>
-                        <option value="4">Moda</option>
-                        <option value="4">Música</option>
-                    </select>
-                </div>
-                <label class="field">Idade</label>
-                <div class="field third">
-                    <input type="radio" id="crianca" name="crianca" checked />
-                    <label for="priority-low">entre 2 e 10</label>
-                </div>
-                <div class="field third">
-                    <input type="radio" id="jovem" name="jovem" />
-                    <label for="priority-normal">entre 11 e 18</label>
-                </div>
-                <div class="field third">
-                    <input type="radio" id="adulto" name="adulto" />
-                    <label for="priority-high">entre 19 e 60</label>
-                </div>
-                <div class="field third">
-                    <input type="radio" id="idoso" name="idoso" />
-                    <label for="priority-high">mais de 60</label>
-                </div>
-                <div class="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="6"></textarea>
-                </div>
-                <div class="field half">
-                    <input type="checkbox" id="contato-email" name="contato-email" />
-                    <label for="contato-email">Autorizo contato por email</label>
-                </div>
-                <div class="field half">
-                    <input type="checkbox" id="contato-telefone" name="contato-telefone" />
-                    <label for="contato-telefone">Autorizo contato por telefone</label>
-                </div>
-            </div>
-            <ul class="actions">
-                <li><a class="button" type="submit" name="submit" id="submit">Enviar</a></li>
-            </ul>
-        </form>
+      <div class="item">
+        <h3>Curso</h3>
+        <select required>
+          <option value="">Escolha o curso</option>
+          <option value="teatro">Teatro</option>
+          <option value="pintura">Pintura</option>
+          <option value="danca">Dança</option>
+          <option value="musica">Música</option>
+          <option value="moda">Moda</option>
+          <option value="fotografia">Fotografia</option>
+        </select>
+      </div>
+      <div class="question-answer">
+        <h3>Faixa de idade</h3>
+        <div class="question-answer">
+          <div class="idade-radio">
+            <input type="radio" value="crianca" id="faixa1" name="faixa-idade"/>
+            <label for="faixa1" class="radio"><span>entre 12 e 18 anos</span></label>
+          </div>
+          <div  class="idade-radio">
+            <input type="radio" value="adulto" id="faixa2" name="faixa-idade"/>
+            <label for="faixa2" class="radio"><span>entre 18 e 60 anos</span></label>
+          </div>
+          <div  class="idade-radio">
+            <input type="radio" value="idoso" id="faixa3" name="faixa-idade"/>
+            <label for="faixa3" class="radio"><span>acima de 60 anos</span></label>
+          </div>
+        </div>
+      </div>
+
+        <div class="btn-block">
+          <button type="submit" href="/">Enviar</button>
+        </div>
+    </form>
     </div>
-</body>
+  </body>
 </html>
